@@ -11,7 +11,7 @@ My commercial code is under NDA. The projects below are what I build in my own t
 | Project | What it shows |
 | :--- | :--- |
 | [**CitySim**](https://github.com/Tarold/CitySim) | Traffic, transit and land-use simulation for a city of 1M+. Profiling-driven optimization took the model cycle from 16 s to 1.6 s and memory from 3.8 GB to 177 MB, using streaming computation, compact data layouts and a background pipeline. Engine-independent core covered by 370 tests. *C#, .NET 8, Godot* |
-| [**SyncPlayer**](https://github.com/Tarold/videoSyncExtension) | Real-time video sync for any website: a WebSocket server with rooms, roles and server-authoritative state, plus a Chrome MV3 extension. *Node.js, WebSocket, PostgreSQL* |
+| [**SyncPlayer**](https://github.com/Tarold/videoSyncExtension) | Real-time video sync for any website. A strict TypeScript WebSocket server handles rooms, roles and server-authoritative state, with Zod-validated messages, PostgreSQL persistence with migrations, unit and Docker-based integration tests, and CI. A Chrome MV3 extension is the client. *TypeScript, Node.js, PostgreSQL, Zod, Vitest, Docker, GitHub Actions* |
 | [**Battleground**](https://github.com/Tarold/Battleground) · [▶ play](https://tarold.github.io/Battleground/) | ASCII-art auto-battler with seven unit types, a promotion system, ballistics and playable aircraft. *Vanilla JS, Canvas, zero dependencies* |
 
 #### Tech
