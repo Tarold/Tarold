@@ -1,19 +1,25 @@
 ### Hi, I'm Oleksii 👋
 
-I'm a full-stack developer who likes problems with real engineering depth: simulations, performance work and interactive front ends. I'm comfortable across **C#/.NET** and the **JavaScript/TypeScript** ecosystem, and I care about clean architecture, tests and measurable results.
+**Backend engineer · Node.js · TypeScript · PostgreSQL**
+
+I have 3+ years of TypeScript in production SaaS. I started on the front end in 2023 and have worked full-stack and backend since 2025. I build Node.js services (NestJS, Express, tRPC) on PostgreSQL and PL/pgSQL, with Redis/Bull queues, third-party integrations and LLM features. I like bringing legacy systems under test and tracing production defects to their root cause. I've worked on UK energy billing, US insurance claims and enterprise IT integrations.
+
+My commercial code is under NDA. The projects below are what I build in my own time, mostly to dig into performance, simulation and real-time sync.
 
 #### Featured projects
 
 | Project | What it shows |
 | :--- | :--- |
-| [**CitySim**](https://github.com/Tarold/CitySim) | City-building simulator with a traffic, transit and land-use model for 1M+ citizens. Streaming traffic assignment and a compact routing graph took the model cycle from 16 s to 1.6 s and memory from 3.8 GB to 177 MB. Engine-independent core covered by 370 NUnit tests. *Godot 4.7, C# 12, .NET 8* |
-| [**Battleground**](https://github.com/Tarold/Battleground) · [▶ play](https://tarold.github.io/Battleground/) | ASCII-art auto-battler with seven unit types, a legend promotion system, ballistics and homing rockets, and playable aircraft. *Vanilla JS, HTML5 Canvas, zero dependencies* |
-| [**SyncPlayer**](https://github.com/Tarold/videoSyncExtension) | Chrome extension and WebSocket server for watching videos in sync on any site, with rooms, roles and server-authoritative state. *Manifest V3, Node.js, WebSocket, PostgreSQL* |
-| [**DotSim**](https://github.com/Tarold/DotSim) · [▶ demo](https://tarold.github.io/DotSim/) | Browser life simulation of dots built with OOP. *JavaScript* |
+| [**CitySim**](https://github.com/Tarold/CitySim) | Traffic, transit and land-use simulation for a city of 1M+. Profiling-driven optimization took the model cycle from 16 s to 1.6 s and memory from 3.8 GB to 177 MB, using streaming computation, compact data layouts and a background pipeline. Engine-independent core covered by 370 tests. *C#, .NET 8, Godot* |
+| [**SyncPlayer**](https://github.com/Tarold/videoSyncExtension) | Real-time video sync for any website: a WebSocket server with rooms, roles and server-authoritative state, plus a Chrome MV3 extension. *Node.js, WebSocket, PostgreSQL* |
+| [**Battleground**](https://github.com/Tarold/Battleground) · [▶ play](https://tarold.github.io/Battleground/) | ASCII-art auto-battler with seven unit types, a promotion system, ballistics and playable aircraft. *Vanilla JS, Canvas, zero dependencies* |
 
 #### Tech
 
-**Languages:** C# · JavaScript · TypeScript · SQL · HTML/CSS
-**Front end:** React · Next.js · Vue · styled-components · Canvas
-**Back end:** .NET · Node.js · Express · WebSocket · PostgreSQL
-**Other:** Godot · NUnit · Chrome Extensions · Git
+**Languages:** TypeScript · JavaScript (Node.js 22) · SQL · PL/pgSQL
+**Backend:** NestJS · Express · tRPC · REST · Zod · webhooks · Bull/BullMQ · Redis · Puppeteer
+**Databases:** PostgreSQL · Supabase · Prisma · TypeORM · Sequelize
+**Testing:** Jest · Vitest · Playwright · Docker-based integration tests · mutation testing
+**Infrastructure:** Docker · AWS (S3, SSM, Lambda) · Fly.io · nginx · Sentry · GitHub Actions · Turborepo · Nx
+**Frontend:** React · Next.js · TipTap/ProseMirror · Tailwind CSS · RxJS
+**AI:** OpenAI · Anthropic Claude · Google Vertex AI · Claude Code
